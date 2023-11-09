@@ -3,7 +3,16 @@
 @import url(./vendor/fonts/fonts.css);
 
 .body {
-  background-color: rgb(255, 255, 255)
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+.main-content {
+  flex: 1;
+}
+.footer {
+  flex-shrink: 0;
 }
 
 .pages {
@@ -17,3 +26,11 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+* { outline: 1px solid red; }

@@ -1,6 +1,6 @@
 .promo {
   background-color: #073042;
-  padding: 75px 70px;
+  padding: 72px 70px;
 }
 
 .promo__container {
@@ -34,7 +34,6 @@
   font-size: 50px;
   line-height: 58px;
   color: white;
-  letter-spacing: -0.04em;
 }
 
 .promo__discription {
@@ -69,9 +68,9 @@
   line-height: 16px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 890px) {
   .promo {
-    padding: 140px 44px 76px;
+    padding: 70px 44px 76px;
   }
 
   .promo__title {
@@ -79,13 +78,12 @@
   }
 
   .promo__container {
-    max-width: 680px;
     flex-direction: column-reverse;
     padding-bottom: 92px;
   }
 
   .promo__logo {
-    margin: 0 auto 48px;
+    margin: 73px auto 48px;
   }
 
   .promo__title {
@@ -128,5 +126,6 @@
   .promo__title {
     font-size: 30px;
     line-height: 38px;
+    letter-spacing: -0.04em;
   }
 }

@@ -18,7 +18,7 @@
 
 .portfolio-links__item {
   display: flex;
-  border-bottom: 1px solid rgba(66, 66, 66, 1);
+  border-bottom: 1px solid rgba(232, 232, 232, 1);
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
@@ -57,7 +57,7 @@
 
 @media (max-width: 768px) {
   .portfolio__container {
-    padding: 0 50px 90px;
+    padding: 16px 50px 90px;
   }
 
   .portfolio-links__link {

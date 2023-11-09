@@ -18,9 +18,9 @@
 .card__discription {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding-bottom: 25px;
-  border-bottom: 1px solid rgba(66, 66, 66, 1);
+  border-bottom: 1px solid rgba(232, 232, 232, 1);
+  height: 26px;
 }
 
 .card__title {
@@ -127,8 +127,9 @@
 
 @media (max-width: 320px) {
   .card {
-    max-width: 300px;
+    width: 80%;
     max-height: 246px;
+    padding-left: 10%;
   }
 
   .card__afisha {

@@ -1,4 +1,4 @@
-// import { userContex } from '../../../contexts/CurrentUserContext';
+import { useNavigate } from 'react-router-dom';
 
 import './Profile.css';
 import { React } from 'react'
@@ -6,6 +6,13 @@ import { pattern } from '../../../utils/constants';
 
 function Profile({ serverResWithError, handleNewUserData, onLoggedIn, ...props }) {
 
+    const navigate = useNavigate();
+
+    const outSite = () => {
+        localStorage.clear();
+        onLoggedIn(false);
+        navigate('/');
+    }
 
     return (
         <section className='profile'>
@@ -41,7 +48,7 @@ function Profile({ serverResWithError, handleNewUserData, onLoggedIn, ...props }
                     <div className='profile__form-btn__container'>
                         <button type='submit' className="profile__btn profile__btn-form"
                         >{props.btnEditText}</button>
-                        <button type='button' className='profile__btn profile__btn-exit'>{props.btnExitText}</button>
+                        <button onClick={outSite} type='button' className='profile__btn profile__btn-exit'>{props.btnExitText}</button>
                     </div>
                 </form>
 

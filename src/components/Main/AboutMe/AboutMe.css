@@ -56,7 +56,7 @@
   font-weight: 500;
   line-height: 17px;
   text-decoration: none;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
 }
 
 .aboutme__biography-link:hover {
@@ -93,6 +93,7 @@
   .aboutme__biography-description {
     font-size: 12px;
     line-height: 18px;
+    padding-bottom: 88px;
   }
 
   .aboutme__biography-photo {

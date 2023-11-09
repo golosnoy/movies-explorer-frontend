@@ -6,7 +6,7 @@
 
 .footer__discription {
   color: rgba(139, 139, 139, 1);
-  border-bottom: 1px solid rgba(66, 66, 66, 1);
+  border-bottom: 1px solid rgba(232, 232, 232, 1);
   margin: 0;
   padding-bottom: 20px;
   font-weight: 400;
@@ -56,7 +56,7 @@
 
 @media (max-width: 768px) {
   .footer__container {
-    padding: 79px 30px 20px;
+    padding: 74px 30px 20px;
   }
 }
 
@@ -70,6 +70,7 @@
   .footer__container {
     font-size: 12px;
     line-height: 15px;
+    padding: 84px 10px 20px;
   }
 
   .footer__discription {

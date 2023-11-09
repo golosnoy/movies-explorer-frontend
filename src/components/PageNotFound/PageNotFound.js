@@ -7,17 +7,14 @@ function PageNotFound({ hideHeaderAndFooter }) {
 
     const history = createBrowserHistory();
 
-    // Показываем шапку и подвал и отправляем на главную
     const showHeaderAndFooter = () => {
-        history.push('/');
+        history.back();
         return hideHeaderAndFooter(false);
     }
 
     useEffect(() => {
-
-        // Прячем `шапку` и `подвал`
         hideHeaderAndFooter(true);
-    }, [])
+    })
 
     return (
         <>

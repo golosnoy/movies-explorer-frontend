@@ -34,7 +34,7 @@ function Header({ loggedIn, ...props }) {
         return (<header className='header header_color_blue'>
         <div className='header__container'>
         <Link to='/'><img className='header__logo' src={logo} alt='Логотип' /></Link>
-            <div className='header__menu__container'>
+            <div className='header__menu_container'>
                 <nav className='header__menu-movies'>
                     <NavLink to='movies' className='header__link header__link-movies'>Фильмы</NavLink>
                     <NavLink to='saved-movies' className='header__link header__link-movies'>Сохранённые фильмы</NavLink>
@@ -42,10 +42,10 @@ function Header({ loggedIn, ...props }) {
             </div>
 
             <nav className='header__menu-profile'>
-                <div className='header__profile__container header__profile__container_color_green'>
+                <div className='header__profile_container header__profile_container_color_green'>
                     <NavLink to='profile' className='header__link header__link_color_black header__link-profile'>Аккаунт</NavLink>
-                    <div className='header__profile__avatar-container'>
-                        <img className='header__profile__avatar' src={avatar} alt='Аватар профиля' />
+                    <div className='header__profile_avatar-container'>
+                        <img className='header__profile_avatar' src={avatar} alt='Аватар профиля' />
                     </div>
                 </div>
             </nav>
@@ -88,7 +88,7 @@ function Header({ loggedIn, ...props }) {
         return (<header className={`header`}>
         <div className='header__container'>
             <Link to='/'><img className='header__logo' src={logo} alt='Логотип' /></Link>
-            <div className='header__menu__container'>
+            <div className='header__menu_container'>
                 
                 <nav className='header__menu-movies'>
                     <NavLink to='movies' className='header__link header__link_color_black header__link-movies'>Фильмы</NavLink>
@@ -97,10 +97,10 @@ function Header({ loggedIn, ...props }) {
             </div>
 
             <nav className='header__menu-profile'>
-                <div className='header__profile__container'>
+                <div className='header__profile_container'>
                     <NavLink to='profile' className='header__link header__link_color_black header__link-profile'>Аккаунт</NavLink>
-                    <div className='header__profile__avatar-container'>
-                        <img className='header__profile__avatar' src={avatar} alt='Аватар профиля' />
+                    <div className='header__profile_avatar-container'>
+                        <img className='header__profile_avatar' src={avatar} alt='Аватар профиля' />
                     </div>
                 </div>
             </nav>

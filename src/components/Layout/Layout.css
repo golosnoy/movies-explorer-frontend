@@ -2,14 +2,14 @@
 .cards {
   display: grid;
   justify-content: center;
-  padding: 62px 70px 10px;
+  padding: 75px 70px 10px;
   grid-template-columns: repeat(auto-fill, min(270px));
   grid-template-rows: 230px;
   gap: 38px 20px;
 }
 
 .cards-next {
-  padding: 50px 70px 80px;
+  padding: 56px 70px 80px;
   text-align: center;
 }
 
@@ -99,6 +99,12 @@
   }
 }
 
+@media (max-width: 440px) {
+  .cards-next__btn-next {
+    width: 240px;
+  }
+}
+
 @media (max-width: 320px) {
   .cards {
     padding: 50px 10px 10px;
@@ -112,6 +118,6 @@
   }
 
   .cards-next__btn-next {
-    width: 240px;
+    max-width: 70%;
   }
 }

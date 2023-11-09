@@ -16,8 +16,8 @@ function Navigation(props) {
                     <div className='navigation__links'>
                         <nav className='navigation__menu-movies'>
                             <NavLink to='/' className={({ isActive }) => `navigation__link ${isActive ? 'navigation__link_active' : ''}`}>Главная</NavLink>
-                            <NavLink to='pagemovies' className={({ isActive }) => `navigation__link ${isActive ? 'navigation__link_active' : ''}`}>Фильмы</NavLink>
-                            <NavLink to='pagesavemovies' className={({ isActive }) => `navigation__link ${isActive ? 'navigation__link_active' : ''}`}>Сохранённые фильмы</NavLink>
+                            <NavLink to='movies' className={({ isActive }) => `navigation__link ${isActive ? 'navigation__link_active' : ''}`}>Фильмы</NavLink>
+                            <NavLink to='saved-movies' className={({ isActive }) => `navigation__link ${isActive ? 'navigation__link_active' : ''}`}>Сохранённые фильмы</NavLink>
                         </nav>
                         <div className='navigation__menu-profile_container'>
                             <nav className='navigation__menu-profile'>

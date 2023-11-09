@@ -1,8 +1,8 @@
 .profile__container {
-  padding: 70px 0 70px;
+  padding: 70px 20px 70px;
   margin: 0 auto;
-  height: 482px;
-  width: 410px;
+  max-height: 482px;
+  max-width: 410px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -37,7 +37,7 @@
   align-items: center;
   height: 31px;
   padding-bottom: 10px;
-  border-bottom: 1px solid rgba(66, 66, 66, 1);
+  border-bottom: 1px solid rgba(232, 232, 232, 1);
 }
 
 .profile__form-input__container:last-of-type {
@@ -125,7 +125,7 @@
   }
 
   .profile__container {
-    padding: 236px 0 269px;
+    padding: 236px 15px 269px;
   }
 
   .profile__greeting {
@@ -140,14 +140,14 @@
 @media (max-width: 320px) {
   .profile__form {
     justify-content: space-between;
-    height: 596px;
+    max-height: 596px;
     padding: 0;
   }
 
   .profile__container {
-    padding: 70px 10px 40px;
-    width: 300px;
-    height: 100%;
+    padding: 70px 15px 40px;
+    max-width: 300px;
+    max-height: 100%;
   }
 
   .profile__greeting {
