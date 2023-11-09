@@ -22,7 +22,7 @@ function FilterCheckbox(props) {
     return width > breakpoint? (
         <div className="filtercheckbox">
             <div className="filtercheckbox__container">
-                <label className="filtercheckbox__checkbox">
+                <div className="filtercheckbox__checkbox">
                     <input
                         className="filtercheckbox__invisible-checkbox"
                         type="checkbox"
@@ -31,16 +31,16 @@ function FilterCheckbox(props) {
                     />
                     
                     <span className="filtercheckbox__visible-checkbox-custom"></span>
-                    <h3 className="filtercheckbox__title">Короткометражки</h3>
-                </label>
+                    <p className="filtercheckbox__title">Короткометражки</p>
+                </div>
             </div>
         </div>
     )
     :
     (<div className="filtercheckbox">
             <div className="filtercheckbox__container">
-                <label className="filtercheckbox__checkbox">
-                <h3 className="filtercheckbox__title">Короткометражки</h3>
+                <div className="filtercheckbox__checkbox">
+                <p className="filtercheckbox__title">Короткометражки</p>
                     <input
                         className="filtercheckbox__invisible-checkbox"
                         type="checkbox"
@@ -50,7 +50,7 @@ function FilterCheckbox(props) {
                     
                     <span className="filtercheckbox__visible-checkbox-custom"></span>
                     
-                </label>
+                </div>
             </div>
         </div>)
 }

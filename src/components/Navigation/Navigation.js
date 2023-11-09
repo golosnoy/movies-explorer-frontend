@@ -22,7 +22,7 @@ function Navigation(props) {
                         <div className='navigation__menu-profile_container'>
                             <nav className='navigation__menu-profile'>
                                 <NavLink to='profile' className={({ isActive }) => `navigation__profile_link ${isActive ? 'navigation__link_active' : ''}`}>Аккаунт</NavLink>
-                                <div className='navigation__profile__container'>
+                                <div className='navigation__profile_container'>
                                     <img className='navigation__profile__avatar' src={avatar} alt='Аватар профиля' />
                                 </div>
                             </nav>

@@ -10,7 +10,7 @@ function Promo() {
 
                     <div className='promo__info'>
                         <h1 className='promo__title'>Учебный проект студента факультета Веб-разработки.</h1>
-                        <h3 className='promo__discription'>Листайте ниже, чтобы узнать больше про этот проект и его создателя.</h3>
+                        <h2 className='promo__discription'>Листайте ниже, чтобы узнать больше про этот проект и его создателя.</h2>
                     </div>
 
                     <img className='promo__logo' src={globusLogo} alt='Глобус' />

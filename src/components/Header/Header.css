@@ -187,9 +187,19 @@
     border: none;
   }
 
+  .burger-menu__btn:hover {
+    opacity: 70%;
+    cursor: pointer;
+  }
+
   .burger-menu__btn_color_black {
     background: url("../../images/navigation/nav-open-black.svg") no-repeat;
    }
+
+   .burger-menu__btn_color_black:hover {
+    opacity: 70%;
+    cursor: pointer;
+  }
 
   .burger-menu__btn-close {
     font-size: 40px;
@@ -198,6 +208,11 @@
     border: none;
     padding: 0;
     transform: rotate(-45deg);
+  }
+
+  .burger-menu__btn-close:hover {
+    opacity: 70%;
+    cursor: pointer;
   }
 }
 

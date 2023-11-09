@@ -46,6 +46,11 @@
   text-decoration: none;
 }
 
+.button:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   .not-found__container {
     max-height: 394px;

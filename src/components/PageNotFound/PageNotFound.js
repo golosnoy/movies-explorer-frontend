@@ -21,8 +21,8 @@ function PageNotFound({ hideHeaderAndFooter }) {
             <section className='not-found'>
                 <div className='not-found__container'>
                     <div className='not-found__title'>
-                        <h2 className='not-found__error'>404</h2>
-                        <h4 className='not-found__text'>Страница не найдена</h4>
+                        <h1 className='not-found__error'>404</h1>
+                        <h2 className='not-found__text'>Страница не найдена</h2>
                     </div>
                     <Link onClick={showHeaderAndFooter} className='button button_type_to-main' to={''}>Назад</Link>
                 </div>

@@ -62,8 +62,8 @@ function SearchForm({
                     }
                     className="searchform__form"
                 >
-                    <div className="searchform__form__container">
-                        <div className="searchform__form-input__container">
+                    <div className="searchform__form_container">
+                        <div className="searchform__form-input_container">
                             <input
                                 className="searchform__form-input"
                                 type="text"

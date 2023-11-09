@@ -30,12 +30,12 @@
   font-size: 12px;
   line-height: 15px;
   color: black;
-  background-color: #F9F9F9;
+  background-color: rgba(248, 248, 248, 1);
 }
 
 .cards-next__btn-next:hover {
-  color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(47, 47, 47, 0.8);
+  opacity: 70%;
+  cursor: pointer;
 }
 
 .cards-next__btn-next:active {
