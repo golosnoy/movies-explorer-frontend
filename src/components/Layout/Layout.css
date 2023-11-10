@@ -110,9 +110,6 @@
 @media (max-width: 320px) {
   .cards {
     padding: 50px 10px 10px;
-    grid-template-columns: repeat(1, auto);
-    grid-template-rows: repeat(2, 246px);
-    gap: 34px;
   }
 
   .cards-next {
