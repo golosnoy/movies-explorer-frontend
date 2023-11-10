@@ -34,7 +34,7 @@ function Header({ loggedIn, ...props }) {
         return (<header className='header header_color_blue'>
         <div className='header__container'>
         <Link to='/'><img className='header__logo' src={logo} alt='Логотип' /></Link>
-            <div className='header__container'>
+            <div className='header__menu_container'>
                 <nav className='header__menu-movies'>
                     <NavLink to='movies' className='header__link header__link-movies'>Фильмы</NavLink>
                     <NavLink to='saved-movies' className='header__link header__link-movies'>Сохранённые фильмы</NavLink>
@@ -88,7 +88,7 @@ function Header({ loggedIn, ...props }) {
         return (<header className={`header`}>
         <div className='header__container'>
             <Link to='/'><img className='header__logo' src={logo} alt='Логотип' /></Link>
-            <div className='header__container'>
+            <div className='header__menu_container'>
                 
                 <nav className='header__menu-movies'>
                     <NavLink to='movies' className='header__link header__link_color_black header__link-movies'>Фильмы</NavLink>

@@ -92,6 +92,8 @@
 @media (max-width: 740px) {
   .cards {
     grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(2, 246px);
+    gap: 34px;
   }
 
   .cards-next {

@@ -60,6 +60,10 @@
   grid-template-columns: repeat(auto-fit, 90px);
   justify-content: center;
   gap: 10px 10px;
+  padding-inline-start: 0;
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .techs__languages-item {

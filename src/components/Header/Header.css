@@ -28,7 +28,7 @@
   justify-items: center;
 }
 
-.header__container {
+.header__menu_container {
   display: flex;
   justify-content: space-between;
   max-width: 294px;
