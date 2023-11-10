@@ -47,13 +47,13 @@ function MoviesCard({ movie, card, dataUserMovies, hendlerMoviesDelete, hendlerM
                     <img className='card__afisha' src={showCross ? `${props.image}` : `${IMG_URL}/${props.image.url}`} alt={props.nameRU} preserveAspectRatio='xMidYMid slice' />
                 </a>
                 <div className='card__discription'>
-                    <p className='card__title'>{props.nameRU}</p>
+                    <h2 className='card__title'>{props.nameRU}</h2>
                     {
                         showCross
-                            ? <button onClick={handleDeleteClick} className='card__delete-btn'>
+                            ? <button type="button" onClick={handleDeleteClick} className='card__delete-btn'>
                                 <span className='card__delete-cross'>+</span>
                             </button>
-                            : <button onClick={handleLikeClick} className='card__like-btn'>
+                            : <button type="button" onClick={handleLikeClick} className='card__like-btn'>
                                 <div className={moviesLikeButton}></div>
                             </button>
                     }

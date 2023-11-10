@@ -68,7 +68,7 @@ function Layout({
 
             {moreButton && (
                 <div className="cards-next">
-                    <button className="cards-next__btn-next" onClick={showeMovies}>
+                    <button type="button" className="cards-next__btn-next" onClick={showeMovies}>
                         Ещё
                     </button>
                 </div>

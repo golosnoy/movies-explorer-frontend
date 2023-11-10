@@ -29,6 +29,10 @@
   background-color: rgb(255, 255, 255);
 }
 
+.authorization__input:focus {
+  background-color: rgb(226, 225, 225);
+}
+
 .authorization__span {
   font-size: 10px;
   line-height: 12px;

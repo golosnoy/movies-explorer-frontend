@@ -28,7 +28,7 @@
   justify-items: center;
 }
 
-.header__menu_container {
+.header__container {
   display: flex;
   justify-content: space-between;
   max-width: 294px;
@@ -114,7 +114,7 @@
   display: flex;
 }
 
-.header__profile_container {
+.header__menu-profile {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -125,11 +125,11 @@
   box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.08);
 }
 
-.header__profile_container_color_green {
+.header__menu-profile_color_green {
   background-color: #2BE080;
 }
 
-.header__profile_avatar-container {
+.header__profile_container {
   width: 26px;
   height: 26px;
   border-radius: 50px;
