@@ -149,7 +149,7 @@ class MainApi {
 
 // Делаем запрос по api для получения информации
 const apiMain = new MainApi({
-    // baseUrl: "https://api.high-level.nomoredomains.work",
+    // baseUrl: "https://api.golosnoy.nomoredomainsrocks.ru",
     baseUrl: "http://localhost:3001",
     baseUrlMovies: 'https://api.nomoreparties.co',
     credentials: "include",

@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom'; // импортируем Brow
 import ReactDOM from 'react-dom/client';
 
 import App from './components/App/App';
-// import reportWebVitals from './reportWebVitals';
+import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,4 +15,4 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 );
-// reportWebVitals();
+reportWebVitals();
