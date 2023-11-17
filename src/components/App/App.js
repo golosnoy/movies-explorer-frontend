@@ -1,4 +1,4 @@
-// import { userContex } from "../../contexts/CurrentUserContext";
+import { userContex } from "../../contexts/CurrentUserContext";
 
 import "./App.css";
 import { useState, useEffect } from "react";
@@ -13,6 +13,7 @@ import Login from "../Authorization/Login/Login";
 import Profile from "../Authorization/Profile/Profile";
 import Footer from "../Footer/Footer";
 import apiMain from "../../utils/MainApi";
+import ProtectedRoute from "../ProtectedRoute/ProtectedRoute";
 
 function App() {
   const location = useLocation();
@@ -148,7 +149,7 @@ function App() {
       .then((data) => {
         if (true) {
           setLoggedIn(true);
-          navigate("/pagemovies");
+          navigate("/movies");
           return data;
         }
       })
@@ -203,9 +204,12 @@ function App() {
     setCurrentUser(null);
   };
 
+  if (!isInited) {		
+    return null;		
+    }
   return (
     <>
-     
+     <userContex.Provider value={currentUser}>
         {hideHeader || valueHideHeaderAndFooter ? (
           <></>
         ) : (
@@ -213,7 +217,7 @@ function App() {
         )}
         <main className="main-content">
           <Routes>
-            
+          <Route element={<ProtectedRoute loggedIn={loggedIn} />}>
               <Route
                 path="/saved-movies"
                 element={
@@ -249,7 +253,7 @@ function App() {
                   />
                 }
               />
-            
+            </Route>
             <Route
               path="/signin"
               element={<Login handleLogin={handleLogin} serverResWithError={serverResWithError} />}
@@ -272,7 +276,7 @@ function App() {
         ) : (
           <Footer />
         )}
-      
+      </userContex.Provider>
     </>
   );
 }

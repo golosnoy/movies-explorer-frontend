@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.07220ae6.css",
-    "main.js": "./static/js/main.6115ad33.js",
+    "main.css": "./static/css/main.245ac9f2.css",
+    "main.js": "./static/js/main.8457444d.js",
+    "static/js/787.42cf8d46.chunk.js": "./static/js/787.42cf8d46.chunk.js",
     "static/media/landing-logo.svg": "./static/media/landing-logo.0e756d9d286ad8b40d7d2263a4f1488b.svg",
     "static/media/Inter-Medium.woff?v=3.19": "./static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
     "static/media/Inter-Black.woff?v=3.19": "./static/media/Inter-Black.c6938660eec019fefd68.woff",
@@ -9,22 +10,23 @@
     "static/media/Inter-Medium.woff2?v=3.19": "./static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
     "static/media/Inter-Black.woff2?v=3.19": "./static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
     "static/media/Inter-Regular.woff2?v=3.19": "./static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
-    "static/media/disabledcheckbox.svg": "./static/media/disabledcheckbox.b097f8220ede5faf9a64.svg",
-    "static/media/profile-icon.svg": "./static/media/profile-icon.20a52938d8b0d0fcddd7e8475d16bbbb.svg",
-    "static/media/logo.svg": "./static/media/logo.25a2943c9f92a986c1fa6c2157b97a2f.svg",
+    "static/media/profile-icon.svg": "./static/media/profile-icon.705090399674329c2f8a87de7c61af99.svg",
+    "static/media/logo.svg": "./static/media/logo.850e5b6d7cb5d175d25677a3e572b5ff.svg",
     "index.html": "./index.html",
     "static/media/magnifier.svg": "./static/media/magnifier.bdf50e8317f12dc6d7a661687705531e.svg",
     "static/media/like-active.svg": "./static/media/like-active.978c637bb266b43522f8.svg",
     "static/media/like-inactive.svg": "./static/media/like-inactive.1bfd4c5599f5f3869e0d.svg",
-    "static/media/checkbox.svg": "./static/media/checkbox.b5e7a53b7bcdbff7f6c9.svg",
-    "static/media/offcheckbox.svg": "./static/media/offcheckbox.8dc860a196177be82b68.svg",
+    "static/media/disabledcheckbox.svg": "./static/media/disabledcheckbox.5ea0763a583272955175.svg",
+    "static/media/checkbox.svg": "./static/media/checkbox.efba29772b9fa12983c6.svg",
+    "static/media/offcheckbox.svg": "./static/media/offcheckbox.f2cadc2c809a6102dcab.svg",
     "static/media/nav-open-black.svg": "./static/media/nav-open-black.823794129bfdcfb330d4.svg",
     "static/media/nav-open.svg": "./static/media/nav-open.b71b3a967cc653a5be4f.svg",
-    "main.07220ae6.css.map": "./static/css/main.07220ae6.css.map",
-    "main.6115ad33.js.map": "./static/js/main.6115ad33.js.map"
+    "main.245ac9f2.css.map": "./static/css/main.245ac9f2.css.map",
+    "main.8457444d.js.map": "./static/js/main.8457444d.js.map",
+    "787.42cf8d46.chunk.js.map": "./static/js/787.42cf8d46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07220ae6.css",
-    "static/js/main.6115ad33.js"
+    "static/css/main.245ac9f2.css",
+    "static/js/main.8457444d.js"
   ]
 }
