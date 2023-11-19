@@ -4,6 +4,7 @@ import React from "react";
 import "./FilterCheckbox.css";
 
 function FilterCheckbox(props) {
+    // Проверяем состояние фильтра
     const checkboxStatus = (evt) => {
         return props.checkboxStatus(!evt.target.checked);
     };
@@ -22,7 +23,7 @@ function FilterCheckbox(props) {
     return width > breakpoint? (
         <div className="filtercheckbox">
             <div className="filtercheckbox__container">
-                <div className="filtercheckbox__checkbox">
+                <label className="filtercheckbox__checkbox">
                     <input
                         className="filtercheckbox__invisible-checkbox"
                         type="checkbox"
@@ -32,14 +33,14 @@ function FilterCheckbox(props) {
                     
                     <span className="filtercheckbox__visible-checkbox-custom"></span>
                     <p className="filtercheckbox__title">Короткометражки</p>
-                </div>
+                </label>
             </div>
         </div>
     )
     :
     (<div className="filtercheckbox">
             <div className="filtercheckbox__container">
-                <div className="filtercheckbox__checkbox">
+                <label className="filtercheckbox__checkbox">
                 <p className="filtercheckbox__title">Короткометражки</p>
                     <input
                         className="filtercheckbox__invisible-checkbox"
@@ -50,7 +51,7 @@ function FilterCheckbox(props) {
                     
                     <span className="filtercheckbox__visible-checkbox-custom"></span>
                     
-                </div>
+                </label>
             </div>
         </div>)
 }

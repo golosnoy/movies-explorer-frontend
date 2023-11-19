@@ -1,11 +1,14 @@
-// import { userContex } from "../../../contexts/CurrentUserContext";
+import { userContex } from "../../../contexts/CurrentUserContext";
 
 import './Login.css';
+import { useContext } from 'react';
+import { Navigate } from 'react-router-dom';
 import WithForm from '../../WithForm/WithForm';
 import { useFormWithValidation } from '../../Validate/Validate';
 import { pattern } from "../../../utils/constants";
 
 function Login({ serverResWithError, handleLogin, ...props }) {
+    const currentUser = useContext(userContex);
     const { values, handleChange, errors, isValid } = useFormWithValidation();
 
     function handleLogins(email, password) {
@@ -18,7 +21,9 @@ function Login({ serverResWithError, handleLogin, ...props }) {
         handleLogins(email, password);
     }
 
-    return (
+    if (currentUser) {
+        return <Navigate to="/" />
+    } return (
         <section className='authorization'>
             <div className='authorization__container'>
                 <WithForm

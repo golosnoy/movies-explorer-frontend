@@ -14,7 +14,7 @@ function Layout({
     ...props
 }) {
     const locationPageMovies =
-        useLocation().pathname.toLocaleLowerCase() === "/pagemovies";
+        useLocation().pathname.toLocaleLowerCase() === "/movies";
 
     const showeMovies = () => {
         showMoreMovies();

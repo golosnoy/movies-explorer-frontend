@@ -28,8 +28,6 @@ function Header({ loggedIn, ...props }) {
         setIsOpenMainPage(currentLocation);
     }, [currentLocation]);
 
-    loggedIn = true; // удалить после верстки
-
     const mainPageLoggedHeader = () => {
         return (<header className='header header_color_blue'>
         <div className='header__container'>
